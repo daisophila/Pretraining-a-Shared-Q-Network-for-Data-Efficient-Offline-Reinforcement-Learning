@@ -1,4 +1,4 @@
-# Pretraining A Shared Q-Network for Data Efficient Offline Reinforcement Learning
+# PSQ: Pretraining a Shared Q-Network for data efficient offline reinforcement learning
 
 With just a few modification, you can apply our method to all of offline RL algorithms. To show an example, we implemented it on TD3+BC. In the codes, we denoted what we modified.
 
