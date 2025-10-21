@@ -25,6 +25,7 @@ do
 	for env in ${envs[*]}
 	do
 		python main.py \
+		--pretrain True \
 		--env $env \
 		--seed $i
 	done
