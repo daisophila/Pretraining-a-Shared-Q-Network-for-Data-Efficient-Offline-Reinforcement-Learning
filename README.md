@@ -7,10 +7,11 @@ Our environment was set to python 3.9.12 pytorch 2.1.0+cu118.
 
 ### Usage
 ```
-python main.py --pretrain True --pretrain_rate 0.1
+python main.py --pretrain True
 ```
 
 If you want to reduce a dataset size, just add contraction_rate argument
+### Pretraining and RL Training using 10% of Dataset
 ```
-python main.py --pretrain True --pretrain_rate 0.1 --contraction_rate 1.0
+python main.py --pretrain True --contraction_rate 0.1
 ```
